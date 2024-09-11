@@ -24,3 +24,21 @@ This project is a Python-based tool that automates the comparison of two LaTeX (
 ```bash
 git clone <repository-url>
 cd latex-diff-finder
+```
+
+
+# LaTeX Diff Script
+
+This script compares `.tex` files from two directories and generates a diff highlighting the changes.
+
+## Running the Script
+
+1. **Prepare Directories:**
+   - Place the old versions of your `.tex` files in a directory named `old/`.
+   - Place the new versions of your `.tex` files in a directory named `new/`.
+   - Create a directory for storing the diff output files, e.g., `diff/`.
+
+2. **Run the Script:**
+   ```bash
+   python script.py
+
